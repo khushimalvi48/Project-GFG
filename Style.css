@@ -1,0 +1,436 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+body button:hover{
+    background-color: white;
+    color:rgb(148, 50, 218);
+    cursor:pointer;
+}
+/*Home Section*/
+
+#home{
+    padding-bottom:30px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color:rgba(246, 239, 250, 0.849);
+}
+#home:before{
+    content:"";
+    background:url("BG-Home.png") no-repeat center center/cover;
+    position: absolute;
+    top:0;
+    left:350px;
+    height:500px;
+    width:800px;
+    z-index:-1;
+    opacity:0.2;
+}
+
+#home #head{
+    display:flex;
+    flex-direction: row;
+    font-weight: bold;
+    padding-left: 50px;
+}
+#home #head h5{
+    padding:20px;
+    font-weight: bold;   
+}
+
+
+#home #head button{
+    margin-left:1220px;
+    border-bottom-left-radius: 25px;
+    background-color:rgb(148, 50, 218);
+    height:70px;
+    width:70px;
+    border:0;
+    box-shadow:4px 4px 8px 6px #88888885;
+}
+
+/*Modal*/
+#exampleModal {
+    margin: 85px;
+    margin-left: -200px;
+
+}
+#exampleModal:before{
+    content:"";
+    background:url("BG.png") no-repeat center center/cover;
+    position: absolute;
+    top:30px;
+    left:700px;
+    height:500px;
+    width:800px;
+    opacity:0.1;
+}
+
+#exampleModal .modal-dialog .modal-content{
+    background-color: rgb(234, 229, 240);
+    height:500px;
+    width:1000px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    z-index: -1;
+
+  }
+
+  #exampleModal .modal-dialog .modal-content .modal-title{
+      padding-left:100px;
+      padding-top:50px;
+      font-weight:bold;
+      font-size:1.8rem;
+  }
+  #exampleModal .modal-dialog .modal-content button{
+      color:white;
+      margin-top: -58px;
+      margin-right: -17px;
+      border-bottom-left-radius: 25px;
+      background-color:rgb(148, 50, 218);
+      box-shadow:4px 4px 8px 6px #88888885;
+      height:70px;
+      width:60px;
+      border:0;
+  }
+
+  #exampleModal .modal-dialog .modal-content .modal-body{
+      display:flex;
+      flex-direction: column;
+  }
+  #exampleModal .modal-dialog .modal-content .modal-body span{
+      padding:10px;
+      padding-left:100px;
+      font-weight:bold;
+  }
+
+  #exampleModal .modal-dialog .modal-content .modal-footer nav{
+    width: 1020px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    margin-right: -8px;
+    margin-left: -8px;
+    padding-left: 50px;
+  }
+  #exampleModal .modal-dialog .modal-content .modal-footer nav #icon{
+      margin-left:400px;
+    
+  }
+  #exampleModal .modal-dialog .modal-content .modal-footer nav  a{
+    padding-left:25px;  
+    font-weight: bold;
+  
+}
+  #exampleModal .modal-dialog .modal-content .modal-footer nav #icon span{
+            padding-right:15px;
+            padding-left:15px;  
+}
+
+
+#home #content{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top:50px;
+    text-align:center;
+}
+#home #content p{
+    margin-bottom:40px;
+}
+#home #content h1{
+    font-weight: bold;
+}
+
+#home #content button{
+    
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color:rgb(148, 50, 218);
+    box-shadow:4px 3px 4px 4px #88888885;
+    width:250px;
+    margin:40px;
+}
+
+/*courses section*/
+#courses{
+    padding-top:100px;
+    padding-right:50px;
+    padding-left:50px;
+}
+#courses span{
+    display:inline-block;
+    border-top-right-radius: 25px;
+    background-color:rgb(148, 50, 218);
+    text-align:center;
+    padding-top:8px;
+    color:white;
+    height:35px;
+    width:150px;
+    margin-left:20px;
+    font-size: 0.8rem;
+}
+
+#courses .card{
+    border:0;
+    border-left:2px solid rgb(148, 50, 218);
+    margin-left:20px;
+    margin-bottom:30px;
+    padding:20px;
+    height:200px;
+
+}
+#courses .card:hover{
+    cursor:pointer;
+}
+#courses .card h5{
+    font-weight: bold;
+}
+
+#courses .card p{
+    padding-top:8px;
+    font-size:0.8rem;
+}
+
+#courses .card button{
+    background-color: rgba(146, 36, 224, 0.212);
+    border:0;
+    color:rgb(84, 10, 141);
+    font-size: 0.8rem;
+    border-radius:20px;
+    font-weight: bolder;
+    width:150px;
+    box-shadow:4px 3px 4px 4px #88888885;
+}
+
+/*About Section*/
+
+#about{
+    padding:100px;
+    padding-right:0px;
+    
+}
+#about #container{
+    display:flex;
+    justify-content:center;
+    border-top-left-radius: 100px;
+    width:1400px;
+    margin-left:80px;
+    background-color: rgba(190, 162, 211, 0.288);
+}
+
+#about #container #image{
+    margin-left:0px;
+}
+#about #container #text{
+    margin-right:100px;
+    margin-top:40px;
+    margin-left:50px;
+    height:200px;
+    width:600px;
+}
+#about #container #text h1{
+    font-weight:bold;
+}
+
+
+#about #container #text button{
+    background-color:rgb(148, 50, 218);
+    color:white;
+    border:0;
+    border-radius:25px;
+    font-weight: bold;
+    width:200px;
+    margin-top:20px;
+    font-size:0.8rem;
+    box-shadow:4px 3px 4px 4px #88888885;
+}
+/*about course section */
+#about-course{
+    padding:50px;
+}
+#about-course #title{ 
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction: column;
+    margin-left:20px;
+    text-align:center;
+    font-weight:bold;
+}
+
+#about-course #title h1{ 
+
+    font-weight:bold;
+}
+
+#about-course  #card{
+    display:flex;
+    justify-content:center;
+    align-content:center;
+}
+
+#about-course #card .card{
+   margin:30px;
+   border:0;
+   border-radius:20px;
+   text-align:center;
+   padding:10px;
+   box-shadow:4px 4px 8px 6px #88888885;
+}
+
+#about-course #card .card .card-title{
+    font-weight: bold;
+}
+
+/*feedback section*/
+#feedback {
+   padding:50px;
+   color:black;
+   padding-bottom: 0px;
+   margin-bottom:0px;
+}
+#feedback #up{
+    margin-left:1400px;
+    border-top-left-radius: 25px;
+    background-color:rgb(148, 50, 218);
+    height:70px;
+    width:70px;
+    border:0;
+} 
+
+#feedback #fd{
+    text-align:center;
+    font-weight: bold;
+}
+#feedback img{
+    height:400px;
+}
+#feedback .label{
+
+    background-color: rgba(190, 162, 211, 0.288);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    color:black;
+    font-weight:bolder;
+    height:350px;
+    padding:80px;
+    
+}
+#feedback .comma{
+    height:50px;
+    width:80px;
+    display:flex;
+   
+}
+
+#feedback .button{
+    margin-bottom: 30px;
+    
+   
+}
+
+#feedback .button button{
+   background-color: rgb(107, 98, 98);
+   height:10px;
+   width:10px;
+  
+  
+}
+
+
+#feedback .label .identity {
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    padding-top:20px;
+}
+
+
+#feedback .label .identity img{
+    height:50px;
+    margin-right: 10px;
+}
+
+/*footer*/
+#footer:before{
+    content:"";
+    background:url("Footer-BG.png") no-repeat center center/cover;
+    position: absolute;
+    top:3070px;
+    left:430px;
+    height:260px;
+    width:400px;
+    opacity:0.1;
+}
+
+#footer{
+    background-color: rgb(43, 58, 51);
+    color:white;
+    margin-top:0px;
+    z-index:-1;
+}
+#footer .foot{
+    display:flex;
+    
+    padding-top:50px;
+   
+}
+
+#footer .foot .connect{
+    padding-right:50px;
+    margin-right:50px;  
+    margin-left:50px;
+}
+#footer .foot .connect h4{
+    font-size:1rem;
+    padding:15px;
+ }
+#footer .foot .connect h6{
+   font-size:0.5rem;
+   padding:20px;
+}
+
+#footer .foot #content{
+    font-size:0.9rem;
+    padding:20px;
+    margin-left:130px;
+ }
+
+ 
+#footer .foot #content p{
+    width:550px;
+ }
+ #footer .foot #content form{
+    display:flex;
+ }
+
+ #footer .foot #content #exampleFormControlInput1{
+    border:0;
+    padding-top:0px;
+    border-bottom: 1px solid white;
+    background-color: rgb(43, 58, 51);
+    width:500px;
+ }
+
+ #footer .foot #content .form-label{
+    padding-bottom:0px;
+    padding:5px;
+ }
+
+#footer .foot .connect span{
+    margin:15px;
+ }
+ #footer .foot #content form button{
+    margin:30px;
+    margin-left: 40px;
+    padding:10px;
+    width:200px;
+    background-color:rgb(136, 17, 221);
+    border:0;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow:4px 3px 4px 4px #88888885;
+ }
